@@ -32,6 +32,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  verification: {
+    google: "krjx0RXXtOSeegNd-iDqE43T-KEiY1je3honhtDhKxs",
+  },
   alternates: {
     canonical: "https://tiktokdownloaderfree.vercel.app",
   },
