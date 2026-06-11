@@ -39,7 +39,7 @@ export async function POST(req: NextRequest) {
       data: {
         title: video.title || "TikTok Video",
         cover: video.cover || null,
-        videoNoWatermark: video.play || null,
+        videoNoWatermark: video.hdplay || video.play || null,
         videoHD: video.hdplay || null,
         audio: video.music || null,
         author: video.author?.nickname || null,
